@@ -7,11 +7,11 @@ import Image from "next/image"
 
 const page = () => {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col w-screen">
       <section className="relative w-full h-screen bg-[url('/images/algocsfenhero.jpg')] bg-no-repeat bg-center bg-cover">
         <div className='bg-black opacity-50 w-full h-screen absolute top-0'></div>
         <div className="flex flex-col w-full h-screen justify-center items-center gap-2">
-          <h1 className="z-10 font-semibold bg-gradient-to-r from-violet-100 to-pink-200 bg-clip-text text-transparent uppercase text-[70px] tablet:text-[100px] laptop:text-[130px]">Algocsfen</h1>
+          <h1 className="z-10 font-semibold bg-gradient-to-r from-violet-100 to-pink-200 bg-clip-text text-transparent uppercase text-[40px] tablet:text-[80px] laptop:text-[120px]">Algocsfen</h1>
           <Scroll />
         </div>
 
